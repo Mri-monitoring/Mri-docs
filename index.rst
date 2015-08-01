@@ -30,6 +30,9 @@ Contents:
    :maxdepth: 1
     
    getting_started.rst
+   mriserver.rst
+   mriapp.rst
+   mripython.rst
    python/index.rst
    app/index.rst
 
