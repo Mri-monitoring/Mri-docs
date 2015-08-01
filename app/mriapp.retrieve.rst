@@ -1,9 +1,6 @@
 mriapp.retrieve package
 =======================
 
-Submodules
-----------
-
 mriapp.retrieve.BaseRetrieve module
 -----------------------------------
 
@@ -16,15 +13,6 @@ mriapp.retrieve.LocalRetrieve module
 ------------------------------------
 
 .. automodule:: mriapp.retrieve.LocalRetrieve
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: mriapp.retrieve
     :members:
     :undoc-members:
     :show-inheritance:

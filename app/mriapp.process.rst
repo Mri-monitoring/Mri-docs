@@ -1,9 +1,6 @@
 mriapp.process package
 ======================
 
-Submodules
-----------
-
 mriapp.process.BaseProcess module
 ---------------------------------
 
@@ -24,15 +21,6 @@ mriapp.process.DummyProcess module
 ----------------------------------
 
 .. automodule:: mriapp.process.DummyProcess
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: mriapp.process
     :members:
     :undoc-members:
     :show-inheritance:

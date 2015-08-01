@@ -1,0 +1,4 @@
+future==0.14.3
+-e git+git@github.com:Mri-monitoring/Mri-python-client.git@6860e9610b8f1e075742a6897c1fbbcf09553de4#egg=mri-master
+-e git+git@github.com:Mri-monitoring/Mri-app.git@b3306d942da7f4e3a036cee25fd94e3556b866a4#egg=mriapp-master
+requests==2.7.0

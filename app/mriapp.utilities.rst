@@ -1,9 +1,6 @@
 mriapp.utilities package
 ========================
 
-Submodules
-----------
-
 mriapp.utilities.line_parser module
 -----------------------------------
 
@@ -16,15 +13,6 @@ mriapp.utilities.verify_config module
 -------------------------------------
 
 .. automodule:: mriapp.utilities.verify_config
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: mriapp.utilities
     :members:
     :undoc-members:
     :show-inheritance:
