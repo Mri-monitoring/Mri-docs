@@ -10,9 +10,13 @@ Mri is a set of tools and applications to allow you to easily monitor neural net
 
 Included in Mri is:
 
-* A webserver based on Reportr_ that allows you to easily monitor training from anywhere.
-* A Python interface to the server API for use with Theano/Pylearn/Blocks/Keras/etc.
-* An interface to Caffe to enable easy hyperparameter testing and monitoring of multiple network architectures. 
+* Mri-server_: A webserver based on Reportr_ that allows you to easily monitor training from anywhere.
+* Mri-client-python_: A Python interface to the server API for use with Theano/Pylearn/Blocks/Keras/etc.
+* Mri-app_: An interface to Caffe to enable easy hyperparameter testing and monitoring of multiple network architectures. 
+
+.. _Mri-server: https://github.com/Mri-monitoring/Mri-server
+.. _Mri-client-python: https://github.com/Mri-monitoring/Mri-python-client
+.. _Mri-app: https://github.com/Mri-monitoring/Mri-app
 
 .. warning::
     Mri is a new project and is currently under development. All projects and APIs are subject to change, and 
