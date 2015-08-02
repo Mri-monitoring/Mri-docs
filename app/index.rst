@@ -1,5 +1,5 @@
-Mri-App Reference
-====================
+Application Reference
+=====================
 
 .. warning::
     This API reference is built based on docstrings only.
