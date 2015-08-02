@@ -7,11 +7,11 @@ Task List or Standalone
 -----------------------
 Mri-app offers two modes: a simple prototxt based mode and a more complete task list mode. 
 
-In task list, you will specify a list of tasks in the configuration file and Mri-app will run all of those tasks in order. In this mode each task requires some setup -- a task requires a model file, a solver file, and a task file. Use the hyperparameter scripts to automatically generate these tasks based on a set of hyperparameters to test.::
+In task list, you will specify a list of tasks in the configuration file and Mri-app will run all of those tasks in order. In this mode each task requires some setup -- a task requires a model file, a solver file, and a task file. Use the hyperparameter scripts to automatically generate these tasks based on a set of hyperparameters to test::
 
 $ python MriApp.py
 
-In prototxt mode, simply pass a prototxt file to Mri-app and Mri will run on that single prototxt. While less flexible, this mode requires almost no setup.::
+In prototxt mode, simply pass a prototxt file to Mri-app and Mri will run on that single prototxt. While less flexible, this mode requires almost no setup::
 
 $ python MriApp.py --override_solver /path/to/solver.prototxt
 

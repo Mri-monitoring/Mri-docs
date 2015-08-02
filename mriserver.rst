@@ -23,7 +23,7 @@ Heroku will ask you to set authentication variables and will automatically set t
 
 Manual Deployment
 -----------------
-To run Mri-server locally you will need to install the Heroku toolbelt.::
+To run Mri-server locally you will need to install the Heroku toolbelt. ::
 
 $ git clone https://github.com/Mri-monitoring/Mri-server.git 
 $ npm install .
@@ -35,7 +35,7 @@ $ foreman start
 .. _foreman: http://ddollar.github.io/foreman/
 .. _env: https://devcenter.heroku.com/articles/config-vars#local-setup
 
-To deploy it on Heroku ::
+To deploy it on Heroku::
 
 $ heroku config:set MONGODB_URL=mongodb://...
 $ heroku config:set AUTH_USERNAME=...
