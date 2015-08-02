@@ -23,7 +23,8 @@ Included in Mri is:
 
 .. warning::
     Mri is a new project and is currently under development. All projects and APIs are subject to change, and 
-    while incompatability warnings will be released, you should not expect long term stability.
+    while incompatability warnings will be released, you should not expect long term stability. Windows is not 
+    yet supported, although as long as you have a proper Python installation you should be okay.
 
 .. tip::
     If you are interested in Mri, please feel free to open issues on Github_, and to contribute via pull requests.
