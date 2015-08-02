@@ -8,6 +8,9 @@ Welcome to Mri's documentation!
 
 Mri is a set of tools and applications to allow you to easily monitor neural network training from anywhere.
 
+.. figure:: _static/mriscreen.png
+    :align: center
+
 Included in Mri is:
 
 * Mri-server_: A webserver based on Reportr_ that allows you to easily monitor training from anywhere.
