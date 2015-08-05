@@ -15,6 +15,26 @@ In prototxt mode, simply pass a prototxt file to Mri-app and Mri will run on tha
 
 $ python MriApp.py --override_solver /path/to/solver.prototxt
 
+Task Files
+----------
+A task file specifies additional information to Mri-app for each task to take place. At the moment, training is the only supported task. A task file looks like this::
+
+{
+    "directives": [
+        {
+            "type": "train", 
+            "parameters": {
+                "solver": "/path/to/solver/solver.prototxt",
+                "resume": "/path/to/snapshots/snapshots_iter_20000.solverstate"
+            }
+        }
+    ], 
+    "id": "some_id_194183591835", 
+    "title": "This net title"
+}
+
+The `resume` field is optional and will pass `--snapshot` to Caffe to allow training to resume from a `.solverstate` file.
+
 Configuration
 -------------
 The Mri configuration file is a plain-text file that contains all the required configuration settings. See the configuration template for an example. Note that not all modules are required, i.e. if you only plan to use the matplotlib-dispatch option, you do not need any other dispatch configuration settings.
