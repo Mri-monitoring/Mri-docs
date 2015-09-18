@@ -10,7 +10,7 @@ For a commented version, see `examples/python_bindings`.
 Import 
 
 >>> from mri import MriServer
->>> from mri import TrainingEvent
+>>> from mri.event import TrainingEvent
 >>> import time
 
 Setup server (one time)
